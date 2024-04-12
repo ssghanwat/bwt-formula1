@@ -1,0 +1,9 @@
+{
+	"name": "adf-formula1-dev",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1d450537-2079-42ac-b5bc-138c5dbe5aa9",
+		"tenantId": "15692ff5-dfa2-43b7-9b62-5bf18e278fae"
+	}
+}
