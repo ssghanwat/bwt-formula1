@@ -1,0 +1,23 @@
+{
+	"name": "ds_drivers_json",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_saf1racing_adlsgen2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "drivers.json",
+				"folderPath": {
+					"value": "@concat('bronze/drivers','/', formatDateTime(utcnow(),'yyyy-MM-dd'))",
+					"type": "Expression"
+				},
+				"fileSystem": "formulaoneproject"
+			}
+		},
+		"schema": {}
+	}
+}
